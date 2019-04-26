@@ -1,0 +1,344 @@
+body {
+    margin: 0;
+}
+
+header {
+    background-color: red;
+    padding: 1.5px;
+    padding-right: 50px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 1px;
+    padding: 0px;
+    overflow: hidden;
+    margin-right: 1%;
+    color: white;
+}
+.logo {
+    cursor: pointer;
+}
+li {
+    float: left;
+    margin-right: 1%;
+}
+
+li a {
+    color: white;
+    margin-right: 10px;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: brown;
+}
+
+li i {
+    margin-left: 5px;
+}
+
+.search {
+    border: none;
+    border-bottom: 1px solid grey;
+    color: #BFB8BB;
+    padding-bottom: 10px;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-style: italic;
+}
+
+img {
+    margin-left: 19%;
+}
+
+.cart {
+    margin-left: 30%;
+}
+
+.women {
+    margin-left: 30%;
+}
+
+.men {
+    margin-left: 2%;
+}
+
+.kids {
+    margin-left: 2%;
+}
+
+.brands {
+    margin-left: 2%;
+}
+
+.sales {
+    margin-left: 2%;
+    color: black;
+    text-decoration: none;
+}
+
+.sales:hover {
+    color: red;
+}
+
+.home {
+    display: inline-block;
+    background-color: #E6E6E6;
+    padding: 15px;
+    padding-right: 85%;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.home a {
+    color: grey;
+    text-decoration: none;
+}
+
+.home a:hover {
+    color: maroon;
+}
+
+.home i {
+    color: grey;
+}
+
+section {
+    align-content: left;
+    margin-left: 0px;
+    padding: 30px;
+}
+
+#black {
+    display: inline;
+    font-weight: bold;
+}
+
+main {
+    display: flex;
+    margin: 0%;
+}
+
+/* main > aside { 
+  flex: 1%;
+}  */
+
+.price {
+    margin: 15px 15px 15px 15px;
+}
+
+.sendel {
+    border: 1px solid grey;
+    width: thin;
+}
+
+.price a {
+    color: black;
+}
+
+.price a:hover {
+    color: red;
+}
+
+#sku {
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: bold;
+}
+
+#black {
+    color: maroon;
+}
+
+#para {
+    color: maroon;
+    display: inline;
+    padding-bottom: 5px;
+}
+
+#btn {
+    background-color: white;
+    color: black;
+    font-style: bold;
+    text-decoration: none;
+}
+
+#chart {
+    background-color: red;
+    color: white;
+    margin: 5px 5px 2px 5px;
+    padding: 8px 15px 8px 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: bold;
+}
+
+#chart:hover {
+    background-color: white;
+    color: black;
+    border: solid black;
+}
+
+.main-sendel {
+    margin: 5%;
+    display: flex;
+    flex: -2px;
+    align-content: center;
+    padding: 0%;
+}
+
+.pkr {
+    display: inline;
+    margin-right: 15px;
+}
+
+#view {
+    margin-bottom: 30%;
+}
+
+.clr {
+    margin-right: 10%;
+    margin-top: 100%;
+}
+
+.num {
+    border: solid;
+    width: 30px;
+    height: 30px;
+    margin-right: 2px;
+    text-align: center;
+}
+
+.co {
+    border: none;
+}
+
+.size {
+    margin-right: 10%;
+}
+
+.rev {
+    border: none;
+    padding: 15px 15px 15px 15px;
+    border-bottom: solid black;
+}
+
+.rev:hover {
+    background-color: white;
+    border: solid black;
+    width: thin;
+}
+
+fieldset {
+    border-color: #E6E6E6;
+    width: thin;
+}
+
+.text {
+    background-color: #f1f1f1;
+    border: none;
+}
+
+.submit {
+    border: none;
+    background-color: red;
+    color: white;
+    padding: 15px 15px 15px 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.submit:hover {
+    background-color: white;
+    color: black;
+    border: solid black;
+}
+
+footer {
+    background-color: #f1f1f1;
+}
+
+.sign {
+    display: inline;
+    margin-left: 25%;
+    padding: 0%;
+}
+
+#icon-2 {
+    display: inline;
+}
+
+.subs {
+    border: none;
+    background-color: red;
+    color: white;
+    padding: 15px 15px 15px 15px;
+}
+
+div a {
+    color: black;
+}
+
+/* .foot {
+  display: flex;
+  margin: 50px;
+ } */
+
+.com {
+    color: #000;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.pol {
+    color: #000;
+    margin-bottom: 10px;
+    font-size: 14px;
+   
+}
+
+.customer {
+    color: #000;
+    margin-bottom: 10px;
+    font-size: 14px;
+    margin-right: 10px;
+    padding-right: 40px;
+}
+
+.we {
+    color: #000;
+    margin-bottom: 10px;
+    font-size: 14px;
+    margin-left: 5px;
+    padding-right: 40px;
+}
+
+.others {
+    color: #000;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.foot> div {
+    display: flex;
+    margin: 10px 5px 10px 5px;
+    flex-direction: column;
+    /* float: left; */
+    padding-right: 30px;
+    
+}
+
+ul {
+    list-style: none;
+    text-align: left;
+    margin-left: 0;
+    padding: 0%;
+}
+.bottom {
+    background-color:#f1f1f1;
+}
+button, a, i {
+    cursor: pointer;
+}
+#ir {
+    color: red;
+}
